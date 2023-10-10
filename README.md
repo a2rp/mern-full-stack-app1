@@ -1,5 +1,6 @@
 # mern-full-stack-app1
-bcrypt, cookie-parser, cors, express, jsonwebtoken, mongoose, axios, react, react-cookie, react-dom, react-router-dom, sass, sweetalert2,
+ - backend node packages: bcrypt, cookie-parser, cors, express, jsonwebtoken, mongoose
+ - frontend node packages: axios, react, react-cookie, react-router-dom, sass, sweetalert2,
 
 run backend
  - open the "backend" folder in vscode
