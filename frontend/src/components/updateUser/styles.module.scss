@@ -1,0 +1,57 @@
+// add user
+
+.container {
+    padding: 15px;
+    border: 3px solid #00f;
+    background-color: #fff;
+
+    .heading {
+        font-size: 20px;
+        text-decoration: underline;
+        margin-bottom: 15px;
+    }
+
+    form {
+        label {
+            display: block;
+            margin-bottom: 3px;
+        }
+        input[type="text"],
+        input[type="number"],
+        input[type="email"] {
+            display: block;
+            height: 30px;
+            width: 100%;
+            padding-left: 15px;
+            margin-bottom: 30px;
+        }
+
+        button[type="submit"] {
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            background-color: #00f;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+
+            &:hover {
+                background-color: #0f0;
+            }
+        }
+        button[name="cancel"] {
+            padding: 5px;
+            padding-left: 15px;
+            padding-right: 15px;
+            margin-left: 15px;
+            background-color: orangered;
+            color: #fff;
+            border: none;
+            border-radius: 3px;
+
+            &:hover {
+                background-color: red;
+            }
+        }
+    }
+}

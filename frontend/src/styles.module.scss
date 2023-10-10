@@ -1,0 +1,13 @@
+.container {
+    // border: 1px solid #f00;
+
+    .fallback {
+        position: fixed;
+        margin: auto;
+        left: 0;
+        right: 0;
+        top: 100px;
+        width: 200px;
+        height: 200px;
+    }
+}

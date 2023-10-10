@@ -1,0 +1,57 @@
+.container {
+    // border: 1px solid #f00;
+
+    .contentContainer {
+        padding: 15px;
+
+        .heading {
+            font-size: 20px;
+            text-decoration: underline;
+            margin-bottom: 15px;
+        }
+
+        form {
+            label {
+                display: block;
+                margin-bottom: 3px;
+            }
+            input[type="text"],
+            input[type="password"],
+            input[type="confirmPassword"] {
+                height: 30px;
+                width: 100%;
+                display: block;
+                margin-bottom: 30px;
+                padding-left: 10px;
+            }
+            .genderContainer {
+                margin-top: 5px;
+                margin-bottom: 30px;
+                display: flex;
+                gap: 30px;
+            }
+            .hearAboutThisContainer {
+                margin-top: 5px;
+                margin-bottom: 30px;
+
+                display: flex;
+                gap: 30px;
+            }
+            select.city,
+            select.state {
+                display: block;
+                margin-bottom: 30px;
+                width: 100%;
+
+                option {
+                    height: 30px;
+                }
+            }
+            button[type="submit"] {
+                padding: 5px;
+                padding-left: 15px;
+                padding-right: 15px;
+            }
+        }
+    }
+}
